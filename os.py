@@ -11,3 +11,7 @@ directory_contents = os.listdir("C:/Users/canal/Pictures/Screenshots")
 print("Directory Contents:")
 for item in directory_contents:
     print(item)
+
+old_name = "C:/Users/canal/Desktop/os/rename me"
+new_name = "C:/Users/canal/Desktop/os/renamed"
+os.rename(old_name, new_name)
