@@ -20,3 +20,22 @@ print("2D Array:", arr2)
 print("Zeros Array:", zeros)
 print("Ones Array:", ones)
 print("Identity Matrix:", identity)
+
+# Create arrays
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+
+# Element-wise addition
+addition = a + b
+
+# Element-wise multiplication
+multiplication = a * b
+
+# Reshape an array
+c = np.array([1, 2, 3, 4, 5, 6])
+reshaped = c.reshape(2, 3)
+
+print("Addition:", addition)
+print("Multiplication:", multiplication)
+print("Reshaped Array:")
+print(reshaped)
